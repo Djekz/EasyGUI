@@ -296,7 +296,7 @@ with gr.Blocks(theme='HRVC/Interstellar', title='Mangio-RVC-Web 💻') as app:
             with gr.Row():
                 gr.Markdown(
                 """
-                yt_dlp base code by me (blane187) coded by Not Eddy (Spanish Mod)
+                yt_dlp base code by me (blane187)
                 """
                 )
 
@@ -305,5 +305,5 @@ with gr.Blocks(theme='HRVC/Interstellar', title='Mangio-RVC-Web 💻') as app:
         
             
                 
-    app.queue(concurrency_count=511, max_size=1022).launch(share=False, quiet=True)
+    app.queue(concurrency_count=511, max_size=1022).launch(share=True, debug=True)
 #endregion
